@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## RAILS --API only TEMPLATE
 
-Things you may want to cover:
+-[About API](https://github.com/rsmml/rails-api-template/blob/master/README.md#about-api)
+-[Get Started](https://github.com/rsmml/rails-api-template/blob/master/README.md#get-started)
 
-* Ruby version
+## About API
+[↑ Go To Top ↑](https://github.com/rsmml/rails-api-template/blob/master/README.md#readme)
 
-* System dependencies
 
-* Configuration
+## Get Started
 
-* Database creation
+- Clone Repo
+> Go to a directory where you will like to put this project, like for example ```~ && cd Desktop/```.
+> Clone the repo with this command:
 
-* Database initialization
+```ruby
+git clone git@github.com:rsmml/rails-api-template.git NAME_APP_HERE
+```
+- Rails new with repo as template
+> Go to a directory where you will like to put this project, like for example ```~ && cd Desktop/```.
+> Start a new Rails App with this command:
 
-* How to run the test suite
+```ruby
+rails new \
+  --database postgresql \
+  --api \
+  -m [TEMPLATE URL GOES HERE] \
+  NAME_APP_HERE
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+**Docker - docker-compose :whale: :**
 
-* Deployment instructions
-
-* ...
